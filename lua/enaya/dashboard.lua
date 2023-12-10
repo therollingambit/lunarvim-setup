@@ -12,19 +12,6 @@ local header = {
   },
 }
 
--- local plugins = ""
--- local stats = require("lazy").stats()
--- plugins = stats.count
-
--- local plugin_count = {
---   type = "text",
---   val = "-- " .. kind.cmp_kind.Module .. " " .. plugins .. " plugins are loaded --",
---   opts = {
---     position = "center",
---     hl = "Keyword",
---   },
--- }
-
 local function getGreeting(name)
   local tableTime = os.date("*t")
   local datetime = os.date(" %d-%m-%Y   %H:%M")
